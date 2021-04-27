@@ -4,7 +4,7 @@
  * Some nice service worker
  */
 const serviceWorker = {
-    version: '6.0',
+    version: '1.0',
     offlinePage: '/offline.html',
     offlineImage: '/offlineImage.svg',
     cachePathPattern: /^.*?(js\/|css\/cache\/|images\/|fonts\/|\.html|\/$)(?!.*?php\/)/,

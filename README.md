@@ -13,6 +13,6 @@ staticCacheResources: [
 ```  
 2. Then SW deletes an old cache on activating  
 3. On fetch, it tests request for some criteria (pattern, get method and origin). You can change pattern in properties.   
-4. Аfter that ше determines the content type of requested resource  
+4. Аfter that it determines the content type of requested resource  
 5. If content type is text/html, SW tries to download it from net, in case of a failure SW gets it from cache, if resource wasn't cached, SW makes offline response  
-6. If content type is note text/html, first it takes from cache, next steps is the same.
+6. If content type is not text/html, first it takes resource from cache, next steps is the same.
